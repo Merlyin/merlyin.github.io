@@ -30,7 +30,7 @@
 
 #navbar__logo {
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
@@ -98,7 +98,7 @@
 }
 
 .navbar__links:hover {
-    color: #f77062;
+    color: #62a0f7;
     transition: all 0.3s ease;
 }
 
