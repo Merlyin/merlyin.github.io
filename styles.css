@@ -270,7 +270,7 @@
     text-decoration: none;
 }
 
-.main__btn:after {
+.main__btn::after {
     position: absolute;
     content: '';
     top: 0;
@@ -286,7 +286,7 @@
     color: #fff;
 }
 
-.main__btn:hover:after {
+.main__btn:hover::after {
     width: 100%;
 }
 

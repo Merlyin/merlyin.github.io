@@ -2,7 +2,13 @@
     background-color: #ff8177;
     text-align: center;
     -webkit-text-fill-color: azure;
-    animation: rotation 2s 5 linear;
+    
+    animation: rotation 3s infinite linear;
+    animation-play-state: paused;
+}
+
+.main .rotate h2:hover{
+    animation-play-state: running;
     
 }
 @keyframes rotation {
